@@ -1,0 +1,879 @@
+: 1676098108:0;dmen
+: 1676099094:0;nvim 
+: 1676099121:0;nvim .vimrc
+: 1676099299:0;nvim .config/nvim/init.vim
+: 1676135525:0;nvim ~/.cache/wal/colors-rofi-dark
+: 1676135846:0;nvim ~/.cache/wal/colors-rofi-dark.rasi
+: 1676136310:0;mv ~/.config/rofi/config.rasi ~/.config/rofi/rofi
+: 1676136381:0;mv ~/.config/rofi/config.rasi ~/.config/rofi/old
+: 1676136447:0;less ~/.config/rofi/oldconfig.rasi
+: 1676136786:0;cp ~/.config/rofi/rofi ~/.config/rofi/config.rasi
+: 1676136853:0;less ~/.config/rofi/rofi
+: 1676136868:0;ls ~/.config/rofi
+: 1676136928:0;less ~/.config/rofi/old
+: 1676137341:0;ls Zathura-Pywal
+: 1676137352:0;zathura
+: 1676137904:0;less ~/.cache/wal/colors-wal-st.h
+: 1676138135:0;ls ~/.cache/wal/
+: 1676138310:0;cd home
+: 1676138583:0;clera
+: 1676138585:0;clear
+: 1676145887:0;cd brave-bin
+: 1676145904:0;makepkg -sri
+: 1676145954:0;rm -rf ~/brave-bin
+: 1676145969:0;yay -S brave-bin
+: 1676146308:0;yay -Su brave-bin
+: 1676146346:0;yay -S brave-bin.git
+: 1676146393:0;yay -Ss brave-bin.git
+: 1676166269:0;youtube-dl
+: 1676168547:0;git clone https://github.com/user234683/youtube-local
+: 1676168570:0;cd youtube-local
+: 1676169848:0;ls -lh
+: 1676169935:0;pkill fcitx5
+: 1676169940:0;fictx5
+: 1676169946:0;fcitx5
+: 1676171078:0;pip3 uninstall -r requirements.txt
+: 1676171253:0;ls /youtube-local
+: 1676171289:0;rm -rf ~/youtube-local
+: 1676171410:0;git clone --depth 1 "https://git.sr.ht/~heckyel/yt-local"
+: 1676171439:0;cd yt-local
+: 1676171468:0;python3 -m venv env
+: 1676171534:0;source env/bin/activate
+: 1676171577:0;pip3 install -r requirements.txt
+: 1676171609:0;pip3 install --upgrade pip3
+: 1676171628:0;pip install --upgrade pip
+: 1676171680:0;python3 server.py
+: 1676172657:0;ls ~/youtube-local
+: 1676178315:0;nvim cliptask
+: 1676178483:0;ls picture
+: 1676178485:0;ls pictures
+: 1676178489:0;ls Pictures
+: 1676179052:0;xclip
+: 1676180271:0;aria2c -h
+: 1676180515:0;chmod +x cliptask
+: 1676180642:0;cliptask
+: 1676180671:0;bt
+: 1676181423:0;curl -s -F"shorten=https://www.youtube.com/watch?v=clmeXfu5Q5w" 0x0.st
+: 1676182728:0;ls ~/Downloads/1676182311.mp4
+: 1676182750:0;rm ~/Downloads/1676182311.mp4
+: 1676182803:0;rm ~/Downloads/yt5s.io\ -\ é€ƒ¹æƒ©ƒ­æƒ¸¯æƒ¼ªåƒ¨ªæ¸ƒ»çƒ©ƒ¨çƒºƒ¤ã€ƒªä¸€ä»£å®ƒ·å¸«ã€ƒ«4å€ƒ«çƒ©ƒ¨æƒ¼¬ä¸€åƒ°ƒ¬å¥ƒ©ä¸ƒª,æƒ­ƒ«æ¸ƒ¥æƒ¹‚éƒ¶ƒ³æƒ²¥éƒ¶ƒ«éƒ»²éƒ¼§\ \(320\ kbps\).mp3
+: 1676183478:0;~/cliptask
+: 1676183974:0;nvim ~/cliptask
+: 1676184057:0;ls ~/Pictures
+: 1676184159:0;rm ~/Downloads/JetBrainsMono.zip
+: 1676184203:0;sxiv ~/Downloads/42\ Ultra\ HD\ 4K\ Most\ Impressive\ Landscapes\ Wallpapers\ -\ 175\ \[nico1899\]/*
+: 1676184296:0;pkill st
+: 1676184539:0;fcitx5-diagnose
+: 1676184972:0;yay -S brave
+: 1676191724:0;pkill sxhkd
+: 1676194527:0;nvim dwm/config.h
+: 1676196332:0;setxkbmap -query | grep -q 'fr' && setxkbmap us || setxkbmap fr,us
+: 1676196337:0;setxkbmap -query
+: 1676196395:0;setxkbmap -query | grep -q 'cn' && setxkbmap us || setxkbmap cn,us
+: 1676197007:0;setxkbmap xkb_layout
+: 1676244213:0;yay -S freetube-bin
+: 1676261599:0;chatgpt
+: 1676262045:0;rm selected_file
+: 1676262117:0;rm $selected_file
+: 1676262119:0;selected_file=$(find ~ -type f -print | fzf)
+: 1676262533:0;ls ~/Downloads
+: 1676262541:0;ls ~/Downloads |less
+: 1676262661:0;rm ~/Downloads/IMG_0053.JPG
+: 1676262680:0;ls ~/Downloads/*.iso
+: 1676262709:0;rm ~/Downloads/Window10_21H2_19044.1947_X64\(2022.8.17\).iso
+: 1676262731:0;rm ~/Downloads/virtio-win-0.1.215.iso
+: 1676264322:0;nvim qrify
+: 1676264347:0;chmod +x qrify
+: 1676264352:0;qrify
+: 1676264356:0;./qrify
+: 1676264372:0;./qrify github.com
+: 1676264425:0;./qrify teabug@gmail.com
+: 1676264462:0;./qrify Hello, World!
+: 1676264732:0;nvim todo
+: 1676264753:0;chmod +x todo
+: 1676264813:0;./todo -a My first task
+: 1676264823:0;./todo
+: 1676264857:0;./todo -c
+: 1676264861:0;./todo clear
+: 1676264869:0;./todo -g
+: 1676264873:0;./todo list
+: 1676265051:0;nvim ytview
+: 1676265068:0;chmod +x ytview
+: 1676265100:0;./ytview -u
+: 1676265114:0;./ytview -s bugswriter
+: 1676265172:0;./ytview -c bugswriter
+: 1676265273:0;./ytview
+: 1676265295:0;./ytview -s Family Guy
+: 1676265328:0;rm ytview
+: 1676265534:0;exa
+: 1676265591:0;ls Templates
+: 1676265601:0;rm Templates
+: 1676265608:0;rm -rf Templates
+: 1676265682:0;ls .cache
+: 1676265759:0;sudo pacman -Syuu ncdu
+: 1676266460:0;sudo rm -f /var/log/messages
+: 1676266472:0;sudo rm -f /var/log/syslog
+: 1676425172:0;sudo pacman -S ncdu
+: 1676425444:0;ls -la omz
+: 1676425467:0;nivm omz/omz.zsh
+: 1676425473:0;nvim omz/omz.zsh
+: 1676425541:0;nvim omz/config/omz.zsh
+: 1676425632:0;nvim omz/lib/omz.zsh
+: 1676425647:0;nvim omz/lib/omz.sh
+: 1676425736:0;cd $(dirname $0)
+: 1676425784:0;echo $(cd $(dirname $0);pwd)
+: 1676425815:0;echo $HOST
+: 1676425839:0;echo ${HOST/.*/}
+: 1676425895:0;cd ~
+: 1676426222:0;echo $PS1
+: 1676427200:0;echo î¯ƒ¦
+: 1676428872:0;nvim usr/bin/sbar
+: 1676428889:0;nvim /usr/bin/sbar
+: 1676430124:0;ps auxw | grep sbar
+: 1676430177:0;kill 1642
+: 1676430226:0;kill 19140
+: 1676430290:0;kill 19278
+: 1676430300:0;sudoedit /usr/bin/sbar
+: 1676430501:0;sbar &
+: 1676430644:0;cd Videos
+: 1676430662:0;cd Desktop
+: 1676430670:0;cd Documents
+: 1676438054:0;sudo pacman -Syu
+: 1676438950:0;sudo pacman -S doas
+: 1676439039:0;doas -e nvim /etc/doas.conf
+: 1676439232:0;sudoedit /etc/doas.conf
+: 1676439859:0;doas nvim /etc/doas.conf
+: 1676439960:0;cat /etc/doas.conf
+: 1676440752:0;nvim /var/log/pacman.log
+: 1676487032:0;mv 42\ Ultra\ HD\ 4K\ Most\ Impressive\ Landscapes\ Wallpapers\ -\ 175\ \[nico1899\] ~/Pictures
+: 1676487042:0;cd Pictures
+: 1676487050:0;cd 42\ Ultra\ HD\ 4K\ Most\ Impressive\ Landscapes\ Wallpapers\ -\ 175\ \[nico1899\]
+: 1676487076:0;file Ultra\ HD,\ 4K,\ Landscape,\ 10865297.jpg
+: 1676487155:0;file Ultra\ HD,\ 4K,\ Landscape,\ 10865297.jpg | rev
+: 1676487205:0;file Ultra\ HD,\ 4K,\ Landscape,\ 10865297.jpg | rev | cut -d, -f2
+: 1676487234:0;file Ultra\ HD,\ 4K,\ Landscape,\ 10865297.jpg | rev | cut -d, -f2 | rev
+: 1676487293:0;file Ultra\ HD,\ 4K,\ Landscape,\ 10865297.jpg | rev | cut -d, -f2 | rev | awk '{ print $1 }'
+: 1676487402:0;for f in *.jpg, do file $f | rev | cut -d, -f2 | rev | awk '{ print $1 }'
+: 1676487412:0;for f in *.jpg, do file $f | rev | cut -d, -f2 | rev | awk '{ print $1 }';
+: 1676487469:0;for f in *.jpg; do file $f | rev | cut -d, -f2 | rev | awk '{ print $1 }'; done
+: 1676487776:0;for f in *.jpg; do if [ $(file $f | rev | cut -d, -f2 | rev | awk '{ print $1 }')="3840x2160" ]; then printf "4k wallpaper found\n" ; fi ; done
+: 1676489057:0;for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg'
+: 1676489128:0;for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg' done
+: 1676489161:0;for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg" done
+: 1676489192:0;for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg; done
+: 1676489425:0;for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg'; done
+: 1676489681:0;n=0; for f in *.jpg; do echo "$f" | grep -oE '[0-9]{8}\.jpg'; n=$((n+1)); echo $n; done
+: 1676490358:0;for f in *.jpg; do new=$(echo "$f" | grep -oE '[0-9]{8}\.jpg'); if [ -n "new" ]; then mv "$f" "$new"; echo "Rename $f to $new"; fi; done
+: 1676490523:0;n=0;for f in *.jpg; do new=$(echo "$f" | grep -oE '[0-9]{8}\.jpg'); if [ -n "new" ]; then mv "$f" "$new"; echo "Rename $f to $new";n=$((n+1)); fi; done; echo "Total files renamed: $n"
+: 1676490745:0;cat Read\ Me.txt
+: 1676491603:0;yay -S peerflix
+: 1676491757:0;nvim noflix
+: 1676491808:0;chmod +x noflix
+: 1676491958:0;ls ytviewer
+: 1676491967:0;./noflix
+: 1676492118:0;./noflix porn
+: 1676492312:0;curl -s https://1337x.to/search/porn/1/
+: 1676492542:0;peerflix magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126&dn=Super+Hot+Chinese+Dream+Teen+Beauty+Hardcore+XXX+504+Porn+Movies+WEBRip+x264+with+Sample+%E2%98%BBrDX%E2%98%BB&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fshadowshq.yi.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce -k
+: 1676492567:0;peerflix magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126&dn=Super+Hot+Chinese+Dream+Teen+Beauty+Hardcore+XXX+504+Porn+Movies+WEBRip+x264+with+Sample+%E2%98%BBrDX%E2%98%BB&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fshadowshq.yi.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+: 1676492623:0;peerflix magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126&dn=Super+Hot+Chinese+Dream+Teen+Beauty+Hardcore+XXX+504+Porn+Movies+WEBRip+x264+with+Sample+%E2%98%BBrDX%E2%98%
+: 1676492633:0;peerflix magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126&dn=Super+Hot+Chinese+Dream+Teen+Beauty+Hardcore+XXX+504+Porn+Movies+WEBRip+x264+with+Sample+%E2%98%BBrDX%E2%98% -k
+: 1676492651:0;peerflix magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126&dn=Super+Hot+Chinese+Dream+Teen+Beauty+Hardcore+XXX+504+Porn+Movies+WEBRip+x264+with
+: 1676492749:0;peerflix "magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126" -k 
+: 1676492788:0;peerflix
+: 1676492921:0;ls /tmp/
+: 1676492972:0;peerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e" --vlc
+: 1676493129:0;peerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e" -v
+: 1676493153:0;peerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e" -k
+: 1676493235:0;peerflix "magnet:?xt=urn:btih:012952E3154DC7B1709883A7A1A0288CAB7F5126" -k
+: 1676493927:0;peerflix "magnet:?xt=urn:btih:magnet:?xt=urn:btih:9A712E28D0D1CAAD571CF59316EC12E72B76A1EF" -k
+: 1676494228:0;peerflix "magnet:?xt=urn:btih:335414ce9e971881419d8f996f8bfc7737d8066e" -k
+: 1676494426:0;peerflix "magnet:?xt=urn:btih:cdf7226222fb2aae447341f9e355337fc298a3af" -k
+: 1676495287:0;rm -rf Downloads/FC2PPV
+: 1676495292:0;mpv Downloads/FC2PPV\ 3181393
+: 1676495313:0;rm -ri Downloads/FC2PPV\ 3181393
+: 1676495498:0;peerflix "magnet:?xt=urn:btih:9d089ec0d9f4d3c8c92139ffc8c649f815c05831" -k
+: 1676496474:0;sudo rm -fr /tmp/torrent-stream/*
+: 1676496494:0;ls /tmp/torrent-stream/
+: 1676496514:0;rm noflix
+: 1676496709:0;ls -la hhd
+: 1676496718:0;ls Downloads/-la hhd
+: 1676496735:0;ls -la Downloads/hhd
+: 1676496745:0;ls -la Downloads/hhd*.*
+: 1676496753:0;ls -la Downloads/
+: 1676499104:0;yay -Ss brave-bin
+: 1676499127:0;yay -Ss aur/brave-bin
+: 1676499133:0;yay -S aur/brave-bin
+: 1676500132:0;history | cut -c 8-
+: 1676501160:0;history | cut -c 8- | sort | uniq | fzf --tac | xclip -r selection -c
+: 1676501257:0;history | cut -c 8- | sort | uniq | fzf
+: 1676501280:0;history | cut -c 8- | sort | uniq | fzf --tac
+: 1676501434:0;xclip -r -selection -c
+: 1676501452:0;history | cut -c 8- | sort | uniq | fzf --tac | xclip -r -selection -c
+: 1676501539:0;history | cut -c 8- | sort | uniq | fzf --tac | xclip -selection c
+: 1676501565:0;nvim test
+: 1676501585:0;history | cut -c 8- | sort | uniq | fzf --tac | xclip -r -selection c
+: 1676502262:0;source .zshrc
+: 1676502557:0;alias cpy="xclip -r -selection c"
+: 1676502586:0;alias h="history | cut -c 8- | sort | uniq | fzf --tac | cpy"
+: 1676502598:0;cpy
+: 1676502710:0;history
+: 1676503044:0;nvim .zshenv
+: 1676503196:0;nvim st/config.h
+: 1676503393:0;sudo make clean install
+: 1676508511:0;ls omz
+: 1676508522:0;ls omz/themes
+: 1676508643:0;history | sort | fzf --tac
+: 1676508682:0;history | cut -c 8- | sort | fzf --tac
+: 1676509440:0;nvim term
+: 1676509553:0;ps -u $USER -o pid,%mem,%cpu,comm | sort -b -k2 -r | sed -n '1!p' | dmenu -i -l 15 | awk '{print $1}')
+: 1676509573:0;ps -u $USER -o pid,%mem,%cpu,comm | sort -b -k2 -r | sed -n '1!p' | dmenu -i -l 15 | awk '{print $1}'
+: 1676509734:0;chmod +x term
+: 1676509741:0;sxiv
+: 1676509762:0;sxiv ~/Public
+: 1676509836:0;./term
+: 1676510016:0;sxiv ~/Pictures
+: 1676510094:0;history | cut -c 8- | fzf --tac
+: 1676516897:0;sudoedit /etc/pacman.d/mirrorlist-arch
+: 1676518526:0;doas pacman -R wpa_supplicant
+: 1676518557:0;doas pacman -R wpa_supplicant wpa_supplicant-runit
+: 1676518566:0;doas pacman -R wpa_supplicant-runit
+: 1676518604:0;rm /run/runit/service/wpa_suppicant
+: 1676518609:0;rm /run/runit/service/wpa_suppicant-runit
+: 1676518640:0;sv stop wpa_supplicant
+: 1676518648:0;sv stop wpa_supplicant-runit
+: 1676518666:0;rm /run/runit/service/wpa_supplicant-runit
+: 1676518675:0;rm /run/runit/service/wpa_supplicant
+: 1676581524:0;doas pacman -S reflector
+: 1676582097:0;cat /etc/pacman.d/mirrorlist
+: 1676582126:0;doas reflector --country 'United States' --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist\
+
+: 1676582567:0;nvim /etc/pacman.d/mirrorlist
+: 1676582596:0;sudoedit /etc/pacman.d/mirrorlist
+: 1676582796:0;sudo pacman -Syy
+: 1676582927:0;doas pacman -R reflector
+: 1676583085:0;doas rankmirrors -n 5 /etc/pacman.d/mirrorlist > /etc/pacman.d/fastestmirrorlist
+: 1676583198:0;sudo pacman -S pacman-contrib
+: 1676583217:0;sudo rankmirrors -n 5 /etc/pacman.d/mirrorlist > /etc/pacman.d/fastestmirrorlist
+: 1676583781:0;sudo passwd -u root
+: 1676583803:0;sudo passwd -l root
+: 1676583808:0;su
+: 1676588170:0;ls -la Downloads/*.pdf
+: 1676599012:0;sudo rankmirrors -n 5 /etc/pacman.d/mirrorlistarch > /etc/pacman.d/archmirrorlist
+: 1676599022:0;doas rankmirrors -n 5 /etc/pacman.d/mirrorlistarch > /etc/pacman.d/archmirrorlist
+: 1676599036:0;cat /etc/pacman.d/mirrorlistarch
+: 1676599039:0;cat /etc/pacman.d/mirrorlist-arch
+: 1676599051:0;sudo su
+: 1676599775:0;sudo nvim /etc/pacman.d/mirrorlist-arch
+: 1676600152:0;nvim .config/sxhkd/sxhkdrc
+: 1676600427:0;yay -S swhkd-git
+: 1676600958:0;sudo nvim /etc/swhkd/swhkdrc
+: 1676601578:0;kill -15 swhks
+: 1676601595:0;kill -15 25542
+: 1676601618:0;ps -u $USER -o pid,%mem,%cpu,comm | grep pkexec
+: 1676601795:0;kill -15 27196
+: 1676601882:0;swhkd
+: 1676602240:0;kill -15 27946
+: 1676602336:0;kill -15 28857
+: 1676602345:0;export XDG_RUNTIME_DIR=/run/user/$(id -u)
+: 1676602351:0;export XDG_CONFIG_HOME=$HOME/.config
+: 1676602364:0;swhks & ; pkexec swhkd
+: 1676602408:0;kill -15 29128
+: 1676602568:0;echo $XDG_RUNTIME_DIR
+: 1676602734:0;kill -15 29391
+: 1676602892:0;pkexec swhkd -c /etc/swhkd/swhkdrc
+: 1676602987:0;swhkd -c /etc/swhkd/swhkdrc
+: 1676603068:0;kill -15 30330
+: 1676603273:0;sudo pacman -S xf86-input-evdev xf86-input-libinput xf86-input-mouse
+: 1676603291:0;sudo pacman -S xf86-input-evdev xf86-input-libinput
+: 1676603302:0;sudo pacman -S xf86-input-evdev
+: 1676603360:0;ls /dev/uinput
+: 1676603498:0;/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &\
+
+: 1676603501:0;swhks & ; pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY swhkd
+: 1676603910:0;nvim .xintric
+: 1676604955:0;pkill swhkd
+: 1676604960:0;sudo pkill swhkd
+: 1676604987:0;pid swhkd
+: 1676605002:0;ps -u $USER -o pid,%mem,%cpu,comm | grep swhks
+: 1676605006:0;ps -u $USER -o pid,%mem,%cpu,comm | grep swhkd
+: 1676605024:0;ps | grep swhkd
+: 1676605083:0;swhks &
+: 1676605091:0;pkexec swhkd
+: 1676605328:0;sxhkd
+: 1676605643:0;sxhkd &
+: 1676605949:0;pidof swhkd
+: 1676605960:0;nvi
+: 1676605972:0;pidof swhks
+: 1676606367:0;yay -Rcns swhkd-git
+: 1676607635:0;cd .local/bin
+: 1676607655:0;wget https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/dmenupass
+: 1676607710:0;rm dmenupass
+: 1676607744:0;wget https://raw.githubusercontent.com/LukeSmithxyz/voidrice/master/.local/bin/dmenupass
+: 1676607749:0;cat dmenupass
+: 1676607765:0;chmod +x dmenupass
+: 1676608053:0;nvim /etc/pacman.d/archmirrorlist
+: 1676608567:0;cat .profile
+: 1676608611:0;nvim .x
+: 1676608922:0;nvim .zprofile
+: 1676608947:0;cat .zshrc
+: 1676611438:0;cat .zprofile
+: 1676612640:0;cat .xinitrc
+: 1676615272:0;nvim .zshrc
+: 1676615294:0;nvim omz/themes/simple.zsh-theme
+: 1676616001:0;cat omz/themes/simple.zsh-theme
+: 1676616038:0;ps | grep sxhkd
+: 1676616127:0;cat .config/sxhkd/sxhkdrc
+: 1676617108:0;mkdir -p .config/autostart
+: 1676617421:0;nvim .config/autostart/sxhkd.desktop
+: 1676617617:0;chmod u+x ~/.config/autostart/sxhkd.desktop
+: 1676617668:0;ls -l ~/.config/autostart/sxhkd.desktop
+: 1676617925:0;cat .config/autostart/sxhkd.desktop
+: 1676620511:0;mv ~/.config/autostart/sxhkd.desktop ~/.config/autostart/sxhkd.desktopold
+: 1676620717:0;mv -l ~/.config/autostart/swhkd-keybinding.desktop ~/.config/autostart/swhkd-keybinding.desktopold
+: 1676620726:0;mv ~/.config/autostart/swhkd-keybinding.desktop ~/.config/autostart/swhkd-keybinding.desktopold
+: 1676620764:0;mv ~/.config/autostart/sxhkd.desktopold ~/.config/autostart/sxhkd.desktop
+: 1676620769:0;ls -l ~/.config/autostart/
+: 1676630672:0;sudo pacman -S Xbindkeys
+: 1676631423:0;pacman -Ss xbindkeys
+: 1676631429:0;pacman -Ss xbindkeysshow
+: 1676631434:0;pacman -Ss xbindkeys-show
+: 1676631511:0;pacman -Ss xbindkeys_show
+: 1676631602:0;sudo pacman -S xbindkeys
+: 1676631618:0;sudo pacman -S xbindkeys_show
+: 1676631622:0;sudo pacman -S xbindkeysshow
+: 1676631626:0;sudo pacman -S xbindkeys-show
+: 1676631803:0;sudo pacman -S tk
+: 1676631813:0;xbindkeys_show
+: 1676632137:0;ps | grep xbindkeys_show
+: 1676632148:0;xbindkeys -d
+: 1676632309:0;xbindkeys -f ~/.xbindkeysrc
+: 1676632440:0;mv ~/.xbindkeysrc ~/.xbindkey
+: 1676632461:0;xbindkeys -d > ~/.xbindkeysrc
+: 1676633021:0;ps | grep xbindkeys
+: 1676634324:0;killall fcitx5
+: 1676634378:0;ps | grep fcitx5
+: 1676634517:0;killall sxhkd
+: 1676636315:0;xbindkeys
+: 1676637028:0;nvim .xinitrc
+: 1676637058:0;which sxhkd
+: 1676637077:0;ls -lh /usr/bin/sxhkd\
+
+: 1676637103:0;ls -lh /usr/bin/xbindkeys\
+
+: 1676637129:0;killall xbindkeys
+: 1676661815:0;nvim ~/.xbindkey
+: 1676661828:0;nvim ~/.xbindkeysrc
+: 1676662379:0;ncdu
+: 1676663090:0;yay -Ss mindcraft
+: 1676663095:0;yay -Ss minecraft
+: 1676663181:0;yay -Ss minecraft | grep Installed
+: 1676663246:0;yay -Rcns minecraft-launcher
+: 1676664007:0;yay -Scc
+: 1676664307:0;stacer
+: 1676665621:0;cat /etc/vconsole.conf
+: 1676665674:0;showconsolefont
+: 1676665683:0;sudo showconsolefont
+: 1676665730:0;ls /usr/share/kbd/consolefonts
+: 1676665974:0;sudoedit /etc/fstab
+: 1676666079:0;ls /home/james/.cache
+: 1676666164:0;group
+: 1676666166:0;groups
+: 1676666178:0;groups james
+: 1676666964:0;cat /etc/fstab
+: 1676667138:0;lsblk --discard
+: 1676667533:0;/sbin/fstrim -v /
+: 1676667539:0;sudo /sbin/fstrim -v /
+: 1676667581:0;sudo fstrim --all
+: 1676668202:0;rm -rf /home/james/.cache/*
+: 1676668249:0;ls -a /home/james/.cache/*
+: 1676668252:0;ls -a /home/james/.cache/
+: 1676669370:0;mv ~/.config/rofi/config.rasi ~/.config/rofi/walconfig.rasi
+: 1676669398:0;cat ~/.config/rofi/rofi
+: 1676669410:0;cat ~/.config/rofi/walconfig.rasi
+: 1676669486:0;rm ~/.config/rofi/rofi
+: 1676669529:0;cat ~/.config/rofi/old
+: 1676669628:0;mv ~/.config/rofi/old ~/.config/rofi/config.rasi
+: 1676669781:0;nvim ~/.config/rofi/config.rasi
+: 1676670176:0;ls -lah /home/james/.cache/
+: 1676677103:0;cd dwm
+: 1676677140:0;nvim config.h
+: 1676678449:0;nvim dwm.c
+: 1676681307:0;doas pacman -Rcns rsync 
+: 1676681352:0;doas pacman -Ss rsync 
+: 1676681486:0;sudo pacman -S stalonetray
+: 1676681513:0;cat ~/.stalonetrayrc
+: 1676682934:0;sudo pacman -S trayer
+: 1676682944:0;trayer
+: 1676683111:0;trayer --edge bottom --align right --widthtype request --height 22 --transparent true --alpha 0 --SetDockType true --expand true --tint 0x000000 --monitor 1 --distance 5 --margin 5 --padding 5 --SetPartialStrut true --width 10 --height 1 --iconspacing 2\
+
+: 1676683185:0;trayer --edge bottom --align right --widthtype request --height 22 --transparent true --alpha 0 --SetDockType true --expand true --tint 0x000000 --monitor 1 --distance 5 --margin 5 --padding 5 --SetPartialStrut true --width 10 --height 2 --iconspacing 2\
+
+: 1676683197:0;trayer --edge bottom --align right --widthtype request --height 2 --transparent true --alpha 0 --SetDockType true --expand true --tint 0x000000 --monitor 1 --distance 5 --margin 5 --padding 5 --SetPartialStrut true --width 10 --height 2 --iconspacing 2\
+
+: 1676683218:0;trayer --edge bottom --align right --widthtype request --height 2 --transparent true --alpha 0 --SetDockType true --expand true --tint 0x000000 --distance 5 --margin 5 --padding 5 --SetPartialStrut true --width 10 --height 2 --iconspacing 2\
+
+: 1676683349:0;trayer --edge bottom --align right --widthtype request --height 2 --transparent true --alpha 0 --SetDockType true --expand true --SetPartialStrut true\
+
+: 1676683389:0;trayer --edge bottom --align right\
+
+: 1676683420:0;trayer --edge bottom --align right --widthtype request --height 8 --transparent true --alpha 0 --SetDockType true --expand true --SetPartialStrut true\
+
+: 1676683454:0;trayer --edge bottom --align right --widthtype request --height 20 --transparent true --alpha 0 --SetDockType true --expand true --SetPartialStrut true\
+
+: 1676683473:0;trayer --edge bottom --align right --widthtype request --height 22 --transparent true --alpha 0 --SetDockType true --expand true --SetPartialStrut true\
+
+: 1676683599:0;vlc
+: 1676683902:0;nvim ~/.stalonetrayrc
+: 1676684985:0;nm-applet
+: 1676688039:0;mkdir games
+: 1676688059:0;mv 0479\ -\ New\ Super\ Mario\ Bros.\ \(E\)\(Supremacy\).nds games
+: 1676688077:0;mv 0712\ -\ Grand\ Theft\ Auto\ -\ Vice\ City\ Stories\ \(USA\)\ \(v1.03\).iso games
+: 1676688096:0;mkdir pdf
+: 1676688105:0;mv *.pdf pdf
+: 1676688137:0;mv -r SuperTuxKart-1.3-linux-64bit games
+: 1676688146:0;mv  SuperTuxKart-1.3-linux-64bit games
+: 1676688178:0;mkdir MedicalMedium
+: 1676688194:0;mv Anthony\ William\ -\ Medical\ Medium\ Cleanse\ to\ Heal\ \(azw3\ epub\ mobi\) MedicalMedium
+: 1676688215:0;mv Medical* MedicalMedium
+: 1676688240:0;mv Medical Medium* MedicalMedium
+: 1676688265:0;ls Medical
+: 1676688269:0;ls MedicalMedium
+: 1676688303:0;mv love-11.4-x86_64.AppImage games
+: 1676688370:0;mv Various Artist* ~/Music
+: 1676688414:0;mv Various* ~/Music
+: 1676688434:0;mv The\ Weeknd\ -\ Die\ For\ You\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ â­ƒ°ï¸ƒ¯ ~/Music
+: 1676688449:0;rm Whitney\ Houston\ -\ Don\'t\ Cry\ For\ Me\ \(The\ Remixes\)\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ â­ƒ°ï¸ƒ¯
+: 1676688457:0;rm -rf Whitney\ Houston\ -\ Don\'t\ Cry\ For\ Me\ \(The\ Remixes\)\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ â­ƒ°ï¸ƒ¯
+: 1676689153:0;ls games
+: 1676689253:0;source $HOME/.zprofile
+: 1676689311:0;ls pdf
+: 1676689392:0;ps | grep stalonetray
+: 1676689618:0;source ~/omz/omz.sh
+: 1676689754:0;source ~/omz/omz.zsh
+: 1676690086:0;zathura Downloads/pdf/*.pdf
+: 1676748637:0;yay -Rcns bcm20702a1-firmware
+: 1676748803:0;cat ~/omz/themes/simple.zsh-theme
+: 1676749682:0;echo -e "\033[37m"
+: 1676749984:0;yay -R bat
+: 1676749991:0;yay -S bat
+: 1676750470:0;yay -S poppler epub-thumbnailer ImageMagick wkhtmltopdf catdoc docx2txt odt2txt exiftool
+: 1676750775:0;yay -S poppler epub-thumbnailer-git imagemagick
+: 1676750790:0;yay -S epub-thumbnailer-git imagemagick
+: 1676751167:0;sudo pacman -S jdk-openjdk jre-openjdk
+: 1676752044:0;yay -R epub-thumbnailer-git
+: 1676752082:0;yay -S epub-thumbnailer-git
+: 1676752094:0;yay -Rcns epub-thumbnailer-git
+: 1676752159:0;yay -Rcns wkhtmltopdf catdoc docx2txt odt2txt exiftool
+: 1676752163:0;yay -Rcns wkhtmltopdf catdoc docx2txt odt2txt
+: 1676752381:0;doas pacman -S ueberzug
+: 1676752637:0;cat ~/omz/plugins/extract/extract.plugin.zsh
+: 1676752720:0;exa ~/omz/plugins/z.lua/README.md
+: 1676752733:0;bat ~/omz/plugins/z.lua/README.md
+: 1676753010:0;cat omz/config/fzf.zsh
+: 1676753021:0;bat omz/config/fzf.zsh
+: 1676753499:0;yay -S pdftotext catdoc docx2txt odt2txt
+: 1676753557:0;ls ~/Downloads/pdf
+: 1676753584:0;pdftotext ~/Downloads/pdf/i-765.pdf
+: 1676753629:0;pdftotext ~/Downloads/pdf/i-765.pdf -
+: 1676753707:0;pdftotext ~/Downloads/pdf/i-765.pdf - | less
+: 1676753749:0;odt2txt -h
+: 1676753758:0;odt2txt -help
+: 1676753831:0;odt2txt Desktop/flyer.odt
+: 1676754529:0;yay -Ss ctpv-git
+: 1676754946:0;nvim ~/omz/themes/simple.zsh-theme
+: 1676754976:0;lf
+: 1676762433:0;yay -Ss lyricsfinder
+: 1676762446:0;yay -S lyricsfinder
+: 1676762795:0;yay -Ss qt5-quickcontrols
+: 1676762804:0;yay -S qt5-quickcontrols
+: 1676762815:0;lyricsfinder
+: 1676783489:0;yay -S linuxqq
+: 1676783633:0;yay -rcns gjs js102
+: 1676783647:0;yay -Rcns gjs js102
+: 1676783667:0;yay -R gjs js102
+: 1676784983:0;ps | grep qq
+: 1676784990:0;ps | grep linuxqq
+: 1676784994:0;htop
+: 1676785081:0;yay -Rcns gjs js102 linuxqq
+: 1676785192:0;yay -S deepin-wine-wechat
+: 1676841927:0;z /home/.cache
+: 1676841972:0;z /home/james/.cache
+: 1676842030:0;z .cache
+: 1676842039:0;z /home/james/
+: 1676847100:0;curl -L google.com
+: 1676847129:0;curl -L en.wikipedia.org
+: 1676847142:0;curl -L twitter.com
+: 1676847154:0;curl -L youtube.com
+: 1676847304:0;cur wttr.in
+: 1676847314:0;curl wttr.in/10026
+: 1676847469:0;curl pirateby.org
+: 1676847480:0;curl piratebay.org
+: 1676847511:0;curl urbandictionary.com
+: 1676847532:0;curl news.ycombinator.com
+: 1676847546:0;curl cheat.sh
+: 1676847611:0;curl cheat.sh/ls
+: 1676847694:0;curl cheat.sh/time
+: 1676847742:0;curl https://tldr.sh
+: 1676847770:0;curl https://tldr.sh/ls
+: 1676848334:0;neofetch
+: 1676873909:0;cat /etc/shells
+: 1676928383:0;ssh 150.136.29.84
+: 1676928614:0;ssh 10.0.0.112
+: 1676929410:0;chmod 400 ssh-key-2023-02-20.key
+: 1676929593:0;ls *.pub
+: 1676929620:0;ls .ssh/*.key
+: 1676929629:0;ls .ssh/*.pub
+: 1676929647:0;mv *.pub .ssh/*.pub
+: 1676929664:0;ls .ssh/
+: 1676929682:0;mv *.pub ~/.ssh/*.pub
+: 1676929688:0;ssh -i ssh-key-2023-02-20.key feliza@129.158.197.54
+: 1676931485:0;scp ubuntu@129.158.197.54:~/pc.ovpn ~/
+: 1676931637:0;scp -i ssh-key-2023-02-20.key ubuntu@129.158.197.54:~/pc.ovpn ~/
+: 1676931735:0;yay -S openvpn
+: 1676954337:0;cd Black\ Panther\ Wakanda\ Forever\ \(2022\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1676954424:0;sxiv www.YTS.MX.jpg
+: 1676955075:0;kodi
+: 1676955206:0;mpv *.mp4
+: 1676973168:0;doas pacman -S syncthing
+: 1676973201:0;syncthing
+: 1676974294:0;ls -lah /home/james/Downloads
+: 1676974335:0;ls -lah /home/james/Downloads/notebook
+: 1676974341:0;ls -lah /home/james/Downloads/Notebook
+: 1676974368:0;nvim /home/james/Downloads/Notebook/markor
+: 1676974440:0;ls /home/james/Downloads/Notebook/markor
+: 1676974452:0;nvim /home/james/Downloads/Notebook/markor/todo.md
+: 1677010978:0;doas pacman -S hugo
+: 1677011382:0;ls /public
+: 1677011394:0;ls -a Public
+: 1677011414:0;hugo version
+: 1677011484:0;mkdir themes
+: 1677011504:0;git clone https://github.com/leopku/hugo-theme-next.git next
+: 1677011515:0;cd themes/next
+: 1677011565:0;hugo help new
+: 1677011670:0;hugo new site -d ~/Public
+: 1677011851:0;ls james
+: 1677011881:0;mv themes james/
+: 1677011890:0;cd theme
+: 1677011891:0;cd themes
+: 1677011896:0;cd next
+: 1677011949:0;cd content
+: 1677012832:0;nvim index.md
+: 1677013784:0;cd james
+: 1677013926:0;hugo server -h
+: 1677013932:0;hugo server -d
+: 1677014104:0;hugo new site james
+: 1677014329:0;hugo new about.md~
+: 1677014335:0;hugo new about.md
+: 1677014348:0;hugo new post/first.md
+: 1677014391:0;nvim /content/post/first.md
+: 1677014430:0;nvim content/post/first.md
+: 1677014513:0;ls themes
+: 1677014524:0;hugo server --theme=next --buildDrafts
+: 1677014577:0;hugo server --buildDrafts
+: 1677014739:0;[200~hugo new site quickstart
+: 1677014889:0;cd public
+: 1677014927:0;rm -r james
+: 1677015025:0;hugo server\
+
+: 1677015050:0;rm -rf quickstart
+: 1677015058:0;hugo new site quickstart\
+
+: 1677015086:0;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+: 1677015144:0;echo "theme = 'ananke'" >> config.toml
+: 1677015234:0;hugo new posts/my-first-post.md
+: 1677015539:0;cd Public
+: 1677015545:0;ls Public
+: 1677015652:0;ls ~/Public
+: 1677019622:0;chown $USER:$USER ~/.mozilla/firefox/profiles.ini
+: 1677019653:0;ls ~/.mozilla
+: 1677019659:0;ls ~/.mozilla/firefox
+: 1677019714:0;~/.cache/
+: 1677019726:0;ls ~/.cache/mozilla
+: 1677019748:0;sudo firefox
+: 1677019783:0;rm -r ~/.mozilla/firefox/*
+: 1677019809:0;rm -rf ~/.mozilla/*
+: 1677019915:0;sudo chown -R $USER:$USER ~/.cache/
+: 1677020019:0;doas pacman -Rcns firefox
+: 1677020033:0;doas pacman -S firefox
+: 1677020058:0;firefox
+: 1677020209:0;exxit
+: 1677024906:0;cd..
+: 1677024929:0;ls quickstart
+: 1677025077:0;doas pacman -S rsync
+: 1677025168:0;rsync -avz ~/quickstart/public/ ubuntu@129.158.197.54:/var/www/html/\
+
+: 1677025311:0;ls Downloads/
+: 1677025379:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/quickstart/public/ ubuntu@129.158.197.54:/var/www/html/\
+
+: 1677025425:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/quickstart/public/ root@129.158.197.54:/var/www/html/\
+
+: 1677027122:0;:q
+: 1677027293:0;ls /home/james/.local/state/nvim/swap//%home%james%quickstart%content%posts%my-first-post.md.swp
+: 1677027300:0;rm /home/james/.local/state/nvim/swap//%home%james%quickstart%content%posts%my-first-post.md.swp
+: 1677027338:0;hugo server
+: 1677027464:0;nvim ~/quickstart/content/posts/my-first-post.md
+: 1677027701:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/quickstart/public/ ubuntu@129.158.197.54:~/var/www/html\
+
+: 1677027713:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/quickstart/public/ ubuntu@129.158.197.54:/var/www/html\
+
+: 1677033280:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/quickstart/public/ ubuntu@129.158.197.54:~/public\
+
+: 1677037475:0;curl https://wx2392f90902aa09e1.wx.ckjr001.com/kpv2p/m8rk7w/?#/homePage/course/video?courseId=3447405&ckFrom=5&extId=-1 | grep mp4
+: 1677037494:0;curl https://wx2392f90902aa09e1.wx.ckjr001.com/kpv2p/m8rk7w/?#/homePage/course/video?courseId=3447405&ckFrom=5&extId=-1
+: 1677037506:0;curl https://wx2392f90902aa09e1.wx.ckjr001.com/kpv2p/m8rk7w/?#/homePage/course/video?courseId=3447405
+: 1677037532:0;curl https://wx2392f90902aa09e1.wx.ckjr001.com/kpv2p
+: 1677037543:0;curl https://wx2392f90902aa09e1.wx.ckjr001.com/
+: 1677043331:0;rsync -avz -e 'ssh -i ~/Downloads/ssh-key-2023-02-20.key' ~/Music/The\ Weeknd\ -\ Die\ For\ You\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ â­ƒ°ï¸ƒ¯/01.\ Die\ For\ You.mp3 ubuntu@129.158.197.54:~/public\
+
+: 1677048627:0;openvpn --config pc.ovpn
+: 1677048634:0;sudo openvpn --config pc.ovpn
+: 1677107717:0;doas pacman -Syu
+: 1677108278:0;nc
+: 1677108301:0;cd Music
+: 1677108318:0;cd CloudMusic
+: 1677108333:0;cd The\ Weeknd\ -\ Die\ For\ You\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ â­ƒ°ï¸ƒ¯
+: 1677108475:0;doas pacman -S pv
+: 1677108770:0;pv 01.\ Die\ For\ You.mp3 | nc -l -p 1111
+: 1677108900:0;curl icanhazip.com
+: 1677109206:0;nc 127.0.0.1 1111 | pv > dieforyou.mp3
+: 1677109236:0;nc 129.158.197.54 1111 | pv > dieforyou.mp3
+: 1677109321:0;nc 129.158.197.54
+: 1677109328:0;nc 129.158.197.54 1111
+: 1677109499:0;nc 129.158.197.54 443 | pv > dieforyou.mp3
+: 1677109572:0;ls dieforyou.mp3
+: 1677109580:0;mpv dieforyou.mp3
+: 1677109604:0;rm dieforyou.mp3
+: 1677109662:0;nc 129.158.197.54 443
+: 1677109764:0;nc 129.158.197.54 443 < /dev/zero
+: 1677115048:0;less /proc/cpuinfo
+: 1677115879:0;lscpu
+: 1677135090:0;sudo nvim /var/www/html/owncloud/config/config.php
+: 1677135117:0;ls /var/www/html/owncloud/
+: 1677135124:0;ls /var/www/html/
+: 1677135130:0;ls /var/www/
+: 1677135136:0;ls /var/
+: 1677142055:0;sudo nvim /etc/php/7.4/fpm/pool.d/www.conf\
+
+: 1677189456:0;sudo pacman -S owncloud-client
+: 1677249576:0;ssh -N -L 80:127.0.0.1:3000 ubuntu@129.158.197.54\
+
+: 1677249768:0;ssh -L 3000:localhost:3000 ubuntu@129.158.197.54\
+
+: 1677250040:0;ssh -N -L 3000:127.0.0.1:80 ubuntu@129.158.197.54\
+
+: 1677250072:0;ssh -N -L 3000:127.0.0.1:3000 ubuntu@129.158.197.54\
+
+: 1677251367:0;sudo apt update
+: 1677256592:0;mkdir gogs
+: 1677256735:0;scp ubuntu@129.158.197.54:/var/gogs/ssh/ssh_host_rsa_key ubuntu@129.158.197.54:/var/gogs/ssh/ssh_host_rsa_key.pub ~/gogs\
+
+: 1677256763:0;scp root@129.158.197.54:/var/gogs/ssh/ssh_host_rsa_key root@129.158.197.54:/var/gogs/ssh/ssh_host_rsa_key.pub ~/gogs\
+
+: 1677257260:0;echo $(whoami)
+: 1677257272:0;echo $user
+: 1677257277:0;echo $USER
+: 1677257375:0;echo $(id -gn)
+: 1677257425:0;scp ubuntu@129.158.197.54:~/ssh_host_rsa_key ubuntu@129.158.197.54:~/ssh_host_rsa_key.pub ~/gogs\
+
+: 1677257689:0;h\
+
+: 1677257898:0;git clone ssh -i ssh_host_rsa_key ://git@129.158.197.54:10022/James/artix.git
+: 1677257916:0;git clone ssh://git@129.158.197.54:10022/James/artix.git
+: 1677258399:0;git clone http://localhost:3000/James/artix.git
+: 1677263109:0;ls ~/.vimrc
+: 1677263167:0;cp ~/.config/nvim/init.vim .
+: 1677263220:0;ls .zshenv
+: 1677263228:0;ls ~/.zshenv
+: 1677263240:0;cp ~/.zshenv .
+: 1677263255:0;ls ~/zprofile
+: 1677263263:0;ls ~/.zprofile
+: 1677263270:0;cp ~/.zprofile .
+: 1677263286:0;ls ~/.zshrc
+: 1677263296:0;cp ~/.zshrc .
+: 1677263348:0;ls -lah
+: 1677263432:0;git config --global user.name "James"\
+
+: 1677263482:0;git config --global user.email teabug@gmail.com
+: 1677263505:0;git commit --amend --reset-author
+: 1677263630:0;git remote add origin http://localhost:3000/James/artix.git
+: 1677263805:0;ls -lah ~/
+: 1677264060:0;ls  ~/
+: 1677264081:0;cp  ~/bt .
+: 1677264089:0;cp  ~/changebrightness .
+: 1677264096:0;cp  ~/cliptask .
+: 1677264116:0;cp  ~/term .
+: 1677264123:0;cp  ~/volume.sh
+: 1677264129:0;cp  ~/volume.sh .
+: 1677264138:0;cp  ~/wifimenu.sh .
+: 1677264304:0;cp  ~/.xinitrc .
+: 1677271317:0;ssh ubuntu@129.158.197.54\
+
+: 1677271340:0;ssh -i ssh-host_rsa_key ubuntu@129.158.197.54
+: 1677271412:0;ls ssh-host_rsa_key
+: 1677271543:0;mv ~/.ssh/id_rsa.pub oldid_rsa.pub
+: 1677271583:0;mv ~/.ssh/id_rsa oldid_rsa
+: 1677271647:0;mv oldid_rsa ~/.ssh
+: 1677271656:0;mv oldid_rsa.pub ~/.ssh
+: 1677271668:0;mv ~/.ssh/
+: 1677271738:0;mv ssh* ~/.ssh
+: 1677271748:0;ls ~/.ssh
+: 1677271843:0;mv ~/.ssh/ssh_host_rsa_key ~/.ssh/id_rsa
+: 1677271859:0;mv ~/.ssh/ssh_host_rsa_key.pub ~/.ssh/id_rsa.pub
+: 1677272126:0;mv ~/.ssh/known_hosts ~/.ssh/oldknown_hosts
+: 1677272293:0;cd Downloads
+: 1677272301:0;cd ~/Downloads
+: 1677272323:0;ssh -i ssh_host_rsa_key ubuntu@129.158.197.54
+: 1677272709:0;mv ~/.ssh/id_rsa.pub ~/.ssh/id_rsa.pubold
+: 1677272783:0;mv ~/.ssh/oldid_rsa.pub ~/.ssh/id_rsa.pub
+: 1677272960:0;cat ~/.ssh/id_rsa.pub | ssh ubuntu@129.158.197.54 'cat >> ~/.ssh/authorized_keys'
+: 1677273326:0;ssh -i ssh-key-2023-02-20.key ubuntu@129.158.197.54
+: 1677273419:0;ls ~/.ssh/
+: 1677273423:0;ls -a ~/.ssh/
+: 1677273435:0;rm ~/.ssh/*
+: 1677275819:0;ssh-keygen
+: 1677276307:0;ssh-copy-id ubuntu@129.159.99.252
+: 1677276415:0;ssh ubuntu@129.159.99.252
+: 1677284906:0;echo ~/.ssh/id_rsa.pub | xclip -selection c
+: 1677284961:0;echo ~/.ssh/id_rsa.pub | xclip -verbose -loop 0 -selection c
+: 1677285069:0;xclip ~/.ssh/id_rsa.pub
+: 1677285215:0;cat ~/.ssh/id_rsa.pub\
+
+: 1677285934:0;cat ~/.ssh/id_rsa.pub | xclip -selection clipboard\
+
+: 1677306538:0;hwclock -show
+: 1677306547:0;hwclock --show
+: 1677306568:0;hwclock --verbose
+: 1677306586:0;sudo hwclock --verbose
+: 1677306627:0;sudo hwclock --systohc
+: 1677306658:0;sudo hwclock --show
+: 1677357628:0;trayer --edge top --align right --widthtype request --height 22 --transparent true --alpha 0 --SetDockType true --expand true --SetPartialStrut true\
+
+: 1677357669:0;stalonetray
+: 1677357713:0;nvim .stalonetrayrc
+: 1677357747:0;cp .stalonetrayrc .
+: 1677357766:0;cp ~/.stalonetrayrc .
+: 1677357793:0;ls ~/.config/
+: 1677358063:0;cp ~/.config/dunst ~/gogs/.config/dunst
+: 1677358076:0;cp -r ~/.config/dunst ~/gogs/.config/dunst
+: 1677358103:0;cp -r ~/.config/dunst/dunstrc ~/gogs/.config/dunst/dunstrc
+: 1677358112:0;cp ~/.config/dunst/dunstrc ~/gogs/.config/dunst/dunstrc
+: 1677358152:0;mkdir -p .config/dunst
+: 1677358155:0;cp ~/.config/dunst/dunstrc ~/gogs/.config/dunst/
+: 1677358159:0;ls ~/.config/dunst
+: 1677358271:0;cp ~/.config/rofi/config.rasi ~/gogs/.config/rofi/config.rasi
+: 1677358286:0;mkdir -p ~/gogs/.config/rofi/
+: 1677358306:0;cp ~/.config/rofi/config.rasi ~/gogs/.config/rofi/
+: 1677358332:0;cp ~/.config/rofi/power.rasi ~/gogs/.config/rofi/
+: 1677358340:0;ls ~/gogs/.config/rofi/
+: 1677358508:0;ls ~/dwm
+: 1677358542:0;ls -lh ~/dwm/
+: 1677358579:0;cd ~/dwm
+: 1677358598:0;cd st
+: 1677358622:0;cd dmenu
+: 1677358625:0;make clean
+: 1677358840:0;wal -i ~/Downloads/clay-banks-u27Rrbs9Dwc-unsplash.jpg -n
+: 1677358946:0;ls /usr/bin
+: 1677358956:0;which sbar
+: 1677359007:0;cp /usr/bin/sbar ~/gogs/usr/bin/sbar
+: 1677359030:0;mkdir -p ~/gogs/usr/bin/
+: 1677359036:0;cp /usr/bin/sbar ~/gogs/usr/bin/
+: 1677359109:0;mkdir -p ~/gogs/dwm
+: 1677359112:0;mkdir -p ~/gogs/st
+: 1677359118:0;mkdir -p ~/gogs/dmenu
+: 1677359155:0;cp ~/dwm ~/gogs/dwm
+: 1677359210:0;cp -r ~/dwm ~/gogs/dwm
+: 1677359218:0;cp -r ~/st ~/gogs/st
+: 1677359230:0;cp -r ~/dmenu ~/gogs/dmenu
+: 1677359279:0;ls artix
+: 1677359298:0;mv .stalonetrayrc ~/gogs/artix
+: 1677359307:0;mv .config ~/gogs/artix
+: 1677359317:0;mv dmenu ~/gogs/artix
+: 1677359322:0;mv dwm ~/gogs/artix
+: 1677359336:0;mv st ~/gogs/artix
+: 1677359343:0;mv usr ~/gogs/artix
+: 1677359348:0;ls ~/gogs/artix
+: 1677359360:0;ls -a
+: 1677359365:0;ls -a ~/gogs/artix
+: 1677359392:0;ls -a ~/gogs/artix/usr/bin
+: 1677359402:0;ls -a ~/gogs/artix/.cofig
+: 1677359406:0;ls -a ~/gogs/artix/.config
+: 1677359410:0;ls -a ~/gogs/artix/.config/dunst
+: 1677359414:0;ls -a ~/gogs/artix/.config/rofi
+: 1677359422:0;ls -a ~/gogs/artix/dmenu
+: 1677359468:0;ls -a ~/gogs/artix/dmenu/dmenu
+: 1677359501:0;mv ~/gogs/artix/dmenu/dmenu ~/gogs/artix/dmenu
+: 1677359804:0;ls -a ~/gogs
+: 1677359844:0;cp ~/.xbindkeysrc .
+: 1677360072:0;ssh
+: 1677360085:0;ssh -N -L 3000:127.0.0.1:10880 ubuntu@129.158.197.54\
+
+: 1677360614:0;git commit -m "Added dotfiles"
+: 1677360853:0;git remove dmenu
+: 1677360870:0;git rm -r dmenu
+: 1677360876:0;git rm -r dwm
+: 1677360880:0;git rm -r st
+: 1677360894:0;git commit -m "remove git"
+: 1677360976:0;git commit -m "add dwm"
+: 1677361001:0;git push -u origin
+: 1677383740:0;poweroff
+: 1677397860:0;ls content
+: 1677397864:0;ls content/post
+: 1677397867:0;ls content/posts
+: 1677398128:0;nvim content/posts/my-first-post.md
+: 1677399545:0;nvim content/posts/my-second-post.md
+: 1677400190:0;ls public
+: 1677400331:0;rsync -avz ~/quickstart/public/ ubuntu@129.158.197.54:~/public
+: 1677409512:0;cat bt
+: 1677411583:0;ssh -L 9091:localhost:9091 ubuntu@129.158.197.54
+: 1677441292:0;sudo pacman -S remmina
+: 1677443723:0;sudo pacman -S remmina-plugin-rdp
+: 1677443760:0;sudo pacman -S freerdp
+: 1677449544:0;ls /Downloads
+: 1677449548:0;ls Downloads
+: 1677449569:0;rm -rf Downloads/Black\ Panther\ Wakanda\ Forever\ \(2022\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1677458003:0;yay -Syu
+: 1677458020:0;reboot
+: 1677458390:0;cd quickstart
+: 1677458412:0;git clone https://github.com/lukesmithxyz/lugo themes/lugo
+: 1677458442:0;echo "theme = 'lugo'" >> config.toml
+: 1677458454:0;cp themes/lugo/static/style.css static/
+: 1677458497:0;nvim config.toml
+: 1677458624:0;hugo server -D
+: 1677458771:0;hugo
+: 1677458876:0;rsync -avz ~/quickstart/public/ ubuntu@129.158.197.54:~/Public
+: 1677459413:0;rsync -avz ~/quickstart/public/ ubuntu@129.158.197.54:/var/www/html/
+: 1677460175:0;cd omz
+: 1677460181:0;git pull
+: 1677460338:0;ssh -N -L 9091:localhost:9091 ubuntu@129.158.197.54
+: 1677464347:0;ssh ubuntu@129.158.197.54
+: 1677471311:0;h
+: 1677471573:0;cd gogs
+: 1677471574:0;ls
+: 1677471577:0;cd artix
+: 1677471584:0;echo "# artix" >> README.md
+: 1677471693:0;cd ..
+: 1677471755:0;cp artix github-artix
+: 1677471761:0;cp -r artix github-artix
+: 1677471858:0;ls .config/nvim
+: 1677471866:0;ls .config/neovim
+: 1677471869:0;ls .config/
+: 1677471881:0;ls ~/.config/nvim/init.vim
+: 1677471942:0;cd github-artix
+: 1677471949:0;git init
+: 1677471969:0;git add .
+: 1677471973:0;git commit -m "first commit"
+: 1677471992:0;git branch -M main
+: 1677472002:0;git remote add origin https://github.com/i0day/artix.git
+: 1677472641:0;git remote set-url origin git@github.com:i0day/artix.git
+: 1677472651:0;git remove -v
+: 1677472660:0;git remote -v
+: 1677472787:0;cat ~/.ssh/id_rsa.pub | xclip -selection clipboard
+: 1677472948:0;git push -u origin main
+: 1677473054:0;cd
+: 1677473069:0;exit
+: 1677532682:0;yay -Syu
+: 1677532756:0;ls
+: 1677532772:0;openvpn --config pc.ovpn
+: 1677532777:0;sudo openvpn --config pc.ovpn
+: 1677532907:0;ls
+: 1677533014:0;cp -r omz hubomz
