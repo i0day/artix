@@ -19,9 +19,39 @@ update_time () {
 
 update_bat () {
 	# you might need to change the path depending on your device
-	read -r bat_status </sys/class/power_supply/BAT0/status
-	read -r bat_capacity </sys/class/power_supply/BAT0/capacity
-	bat="$bat_status$bat_capacity%"
+#	read -r bat_status </sys/class/power_supply/BAT0/status
+#	read -r bat_capacity </sys/class/power_supply/BAT0/capacity
+#	bat="$bat_status$bat_capacity%"
+BATTERY=0
+BATTERY_INFO=$(acpi -b | grep "Battery ${BATTERY}")
+BATTERY_STATE=$(echo "${BATTERY_INFO}" | grep -wo "Full\|Charging\|Discharging")
+BATTERY_POWER=$(echo "${BATTERY_INFO}" | grep -o '[0-9]\+%' | tr -d '%')
+BATTERY_ICON=0
+URGENT_VALUE=10
+
+if [[ "${BATTERY_POWER}" -le "${URGENT_VALUE}" ]]; then
+  BATTERY_ICON=""
+elif [[ "${BATTERY_POWER}" -le 25 ]]; then
+  BATTERY_ICON=""
+elif [[ "${BATTERY_POWER}" -le 50 ]]; then
+  BATTERY_ICON=""
+elif [[ "${BATTERY_POWER}" -le 75 ]]; then
+  BATTERY_ICON=""
+else
+  BATTERY_ICON=""
+fi
+
+if [[ "${BATTERY_STATE}" = "Charging" ]]; then
+  bat="${BATTERY_ICON} ${BATTERY_POWER}%+"
+elif [[ "${BATTERY_STATE}" = "Discharging" ]]; then
+   bat="${BATTERY_ICON} ${BATTERY_POWER}%-"
+else
+  bat="${BATTERY_ICON} ${BATTERY_POWER}%"
+fi
+
+if [[ "${BATTERY_POWER}" -le "${URGENT_VALUE}" ]]; then
+  exit 33
+fi
 }
 
 update_vol () {
@@ -49,7 +79,7 @@ update_backlight
 
 display () {
 	#printf "%s\n" " $event [$weather] [$memory $cpu] [$bat] [$backlight] [$vol] $time "
-	xsetroot -name " [ $memory] [ $bat] [󰃝 $backlight] [$vol] $time "
+	xsetroot -name " [ $memory] [$bat] [󰃝 $backlight] [$vol] $time "
 }
 
 # SIGNALLING
