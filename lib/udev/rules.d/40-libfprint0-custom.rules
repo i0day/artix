@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="147e", ATTRS{idProduct}=="2016", MODE="0664", GROUP="plugdev"
