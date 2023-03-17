@@ -1,8 +1,8 @@
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-setxkbmap -option caps:swapescape
-xset r rate 300 50
+#setxkbmap -option caps:swapescape
+#xset r rate 300 50
 #amixer sset Master unmute
 #amixer sset Master 1000
 picom -b --experimental-backends --config ~/picom/picom.conf
@@ -13,5 +13,6 @@ pipewire &
 # Add this to your .xinitrc or whatever file starts programs on startup.
 # -R restores the last colorscheme that was in use.
 wal -R
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec dbus-launch --exit-with-session dwm
 #startx ~/.config/chadwm/scripts/run.sh
