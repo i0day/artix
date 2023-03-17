@@ -67,6 +67,10 @@ export PATH="$HOME/.local/bin:$PATH"  #path for .local bin app like pip chatgpt
 
 # Switch escape and caps if tty and no passwd required:
 sudo -n loadkeys ${XDG_DATA_HOME:-$HOME/.local/share}/larbs/ttymaps.kmap 2>/dev/null
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi
+#if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+#  exec startx
+#fi
+startx
+
+setxkbmap -option caps:swapescape
+xset r rate 300 50
