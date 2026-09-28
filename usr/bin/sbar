@@ -1,7 +1,27 @@
-#!/bin/env sh
+#!/bin/bash 
 # INIT
 printf "$$" > ~/.cache/pidofbar
 sec=0
+
+caffeine_status_file="$HOME/.cache/caffeine_status"
+icon_enabled="  "
+icon_disabled=" ﯈ "
+
+# Function to get the caffeine status
+caffeine_status() {
+    if [[ -f "$caffeine_status_file" ]]; then
+        local isActive
+        isActive=$(<"$caffeine_status_file")
+        if [[ $isActive -eq 1 ]]; then
+            echo "$icon_enabled"
+        else
+            echo "$icon_disabled"
+        fi
+    else
+        # Default to disabled if the file doesn't exist
+        echo "$icon_disabled"
+    fi
+}
 
 # MODULES
 
@@ -49,9 +69,9 @@ else
   bat="${BATTERY_ICON} ${BATTERY_POWER}%"
 fi
 
-if [[ "${BATTERY_POWER}" -le "${URGENT_VALUE}" ]]; then
-  exit 33
-fi
+#if [[ "${BATTERY_POWER}" -le "${URGENT_VALUE}" ]]; then
+#  exit 33
+#fi
 }
 
 update_vol () {
@@ -79,7 +99,7 @@ update_backlight
 
 display () {
 	#printf "%s\n" " $event [$weather] [$memory $cpu] [$bat] [$backlight] [$vol] $time "
-	xsetroot -name " [ $memory] [$bat] [󰃝 $backlight] [$vol] $time "
+	xsetroot -name "[$(caffeine_status)] [ $memory] [$bat] [󰃝 $backlight] [$vol] $time "
 }
 
 # SIGNALLING
