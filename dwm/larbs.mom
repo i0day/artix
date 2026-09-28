@@ -10,6 +10,7 @@
 .PRINTSTYLE TYPESET
 .PT_SIZE 12
 .START
+.PP
 Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
 Pressing \f(CWs\fP will fit it to window width (\f(CWa\fP to revert).
 \f(CWK\fP and \f(CWJ\fP zoom in and out.
@@ -225,7 +226,7 @@ There are nine tags, active tags are highlighted in the top left.
 .ITEM
 \f(CWMod+`\fP \(en Select an emoji to copy to clipboard
 .ITEM
-\f(CWMod+Insert\fP \(en Show contents of clipboard/primary selection
+\f(CWMod+Insert\fP \(en Pastes text you have saved in a file at ~/.local/share/larbs/snippets
 .LIST OFF
 .HEADING 2 "Audio"
 .PP
